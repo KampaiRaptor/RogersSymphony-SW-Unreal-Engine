@@ -31,6 +31,7 @@ void ARS_Player::BeginPlay()
 void ARS_Player::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	CameraBoom -> AddLocalRotation(AddedRotation);
 
 }
 

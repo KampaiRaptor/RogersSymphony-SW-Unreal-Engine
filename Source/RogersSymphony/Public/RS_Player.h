@@ -27,6 +27,9 @@ protected:
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* CameraBoom;
 
+	UPROPERTY(EditAnywhere)
+	FRotator AddedRotation;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
